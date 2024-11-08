@@ -1,0 +1,217 @@
+/*Header*/
+.navbar {
+  background-color: #f8f9fa; /* Color de fondo del navbar */
+}
+
+.navbar-brand .logo {
+  width: auto;
+  height: 50px; /* Ajusta el tamaño del logo */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #000; /* Color de los enlaces */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff2e73; /* Color al pasar el mouse */
+}
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1); /* Color del borde del botón toggle */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-icons img {
+  width: 25px; /* Tamaño de los iconos del navbar */
+}
+
+.navbar-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar-icons img {
+  width: 25px; /* Ajusta el tamaño de los íconos del usuario y carrito */
+  transition: all 0.3s ease;
+}
+
+.navbar-icons img:hover {
+  transform: scale(1.1); /* Efecto hover en los íconos */
+}
+header {
+  font-family: "Comic Neue";
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #fef1f0;
+}
+
+.list-unstyled {
+  padding-left: 10px;
+}
+
+.custom-bg-rosa {
+  background-color: #ffdad8;
+  /* Color rosa claro en hexadecimal */
+}
+
+.custom-btn-color1 {
+  background-color: #ff1493;
+  /* Color rosa intenso en hexadecimal */
+}
+
+.custom-btn-color1 span {
+  width: 50px;
+  height: auto;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  height: auto;
+  align-self: flex-start;
+}
+.logo img {
+  max-width: 100px;
+  height: auto;
+  align-self: flex-start;
+}
+
+.seccion {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+.barra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.navegacion {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff2e73;
+}
+
+.a {
+  color: #ff9183;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 650;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+.bienvenidoSeccion {
+  display: flex;
+  flex-direction: row;
+}
+
+.bienvenidosP {
+  margin-top: 25px;
+}
+
+/*Navbar ocupe todo el espacio disponible*/
+.navbar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.navbar-header {
+  margin-top: 100px;
+}
+
+.container-fluid {
+  background-color: #ffdad8;
+}
+
+.container {
+  font-family: "Comic Neue";
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+body {
+  margin-top: 150px;
+  display: flex;
+  padding: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; /* Establece el alto mínimo del cuerpo para ocupar al menos toda la altura de la ventana */
+}
+
+.navbar-nav .nav-link {
+  margin-right: 10px;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar-icons .nav-item {
+  padding-left: 10px;
+}
+
+.navbar-icons .nav-link img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .barra {
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffdad8;
+  }
+
+  .navegacion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*Centra los iconos en modo responsivo*/
+  .navbar-icons {
+    justify-content: center;
+    width: 100%;
+    display: flex; /* Asegura que los iconos se muestren */
+  }
+
+  .footer-seccion {
+    margin: 10px 0;
+    position: relative;
+  }
+}
